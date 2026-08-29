@@ -1,0 +1,27 @@
+{
+  "name": "wexa-cognodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "build": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veenasuresh2001/wexa-devgraph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/veenasuresh2001/wexa-devgraph/issues"
+  },
+  "homepage": "https://github.com/veenasuresh2001/wexa-devgraph#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}
