@@ -25,3 +25,6 @@ from backend
 ## Deployment on Vercel 
 
 Please check, https://wexa-devgraph-2uv7eydbd-veena-sureshs-projects.vercel.app/
+
+## screenrecording 
+https://drive.google.com/file/d/1O0jQ-v7HgRg1AlZZM8vmsFm5aOMCZoEZ/view?usp=drive_link
