@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { 
   fetchStats, 
   fetchGraphData, 
   fetchDevelopers, 
-  fetchRecommendations, 
-  fetchSkillGaps  
+  fetchRecommendations,   
 } from "./api/client.ts";
 import type { GraphStats } from "./api/client.ts";
 import GraphVisualizer from "./components/GraphVisualizer";
